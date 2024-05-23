@@ -1,34 +1,70 @@
-# fried-chicken-rusturant
-## Task Instructions
+# Getting Started with Create React App
 
-Please follow the steps below to complete the task:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-1. Create a `RestaurantList` component representing a page that displays a list of fried chicken restaurants. Consider adding `data-testid='restaurants-list'` to the container element `div` of the restaurant list for testing purposes.
+## Available Scripts
 
-2. Design a `RestaurantCard` component to showcase each restaurant's information. Include details like name, location, and a rating system (1-5 stars). Make sure to add these props attributes to target specific elements within the card for testing:
-   1. `data-testid='restaurant-name'` for the restaurant name element.
-   2. `data-testid='restaurant-location'` for the restaurant location element.
-   3. `data-testid='restaurant-rating'` for the rating element.
+In the project directory, you can run:
 
-3. Build a `RestaurantForm` component with an input field for users to add new restaurants to the list. Clicking an "Add" button should seamlessly add the new restaurant. Include these data-testid attributes for testing:
-   1. `data-testid='restaurant-name-input'` for the name input field.
-   2. `data-testid='restaurant-location-input'` for the location input field.
-   3. `data-testid='range-input'` for the rating input field (assuming it's a range input).
+### `npm start`
 
-4. Add a "Delete" button beside each restaurant card. This allows users to remove unwanted restaurants from the list.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-5. Add a "Change Rate" button next to each restaurant card, allowing users to modify the rating.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-6. When a user clicks on a specific restaurant card, the app should navigate to a dedicated `RestaurantDetails` component. This component will display detailed information about the chosen restaurant.
+### `npm test`
 
-## Rules
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. Use state and props.
-2. Use es6 methods.
+### `npm run build`
 
-## Extra Points
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-1. Make the web app gives the user a fried chicken restaurant vibe.
-2. Make it responsive.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Please feel free to reach out if you have any questions or need further assistance.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
